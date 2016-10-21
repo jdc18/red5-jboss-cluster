@@ -1,0 +1,7 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+  <sub-deployment name="tesla-1.0.war">
+    <dependencies>
+      <module name="org.infinispan" slot="main" />
+    </dependencies>
+  </sub-deployment>
+</jboss-deployment-structure>
